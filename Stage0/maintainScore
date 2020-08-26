@@ -1,0 +1,31 @@
+# maintainScore()
+
+## Features
+- It updates the score of both the players
+- It keeps record of the time
+
+### Scenario: Record the score
+
+  Given: The setup is done and game is going on
+  
+  When: The right/left paddle moves
+  
+  Then: Increase the score by on according to which paddle moves
+  
+### Scenario: Display the winner
+  
+  Given: The game is going on
+    
+  When: The timer reaches the set time
+    
+  Then: Display the winner according to the highest score in the system
+  
+### Scenario: Paddle miss the ball
+
+  Given: The game is going on
+  
+  When: The paddle miss the ball
+  
+  Then: Start the game with the ball on the opposite player side until timer is on and maintain the score also
+    
+    
