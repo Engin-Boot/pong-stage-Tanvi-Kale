@@ -1,0 +1,22 @@
+# drawGraphics()
+
+## Features
+- It creates the playing background for the game
+- It creates the ball and players
+- It sets the time limit
+
+### Scenario: Create the window for the game
+
+  Given: The interface is switch on
+  
+  When: The user gives the width and height
+  
+  Then: Create the walls for the game interface and also place the paddle at the center of the wall
+  
+### Scenario: Set the time
+
+  Given: The game is working
+  
+  When: The interface shows the time select option and user selects one
+  
+  Then: Set that time as the end of the game
